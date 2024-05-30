@@ -5,7 +5,7 @@ import bodyParser from "body-parser";
 import connectDB from "./config/database.js";
 import UserRoutes from "./routes/UserRoutes.js";
 import PlaylistRoutes from "./routes/PlaylistRoutes.js";
-import errorMiddleware from "./middlewares/error.js";
+import errorMiddleware from "./middlewares/Error.js";
 
 dotenv.config();
 const PORT = process.env.PORT;
